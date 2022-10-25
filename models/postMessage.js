@@ -1,5 +1,6 @@
 import mongoose from "mongoose"
 
+// post structure in mongodb 
 const postSchema =  mongoose.Schema({
     title: String,
     message: String,
